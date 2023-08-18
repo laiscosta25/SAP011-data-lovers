@@ -1,0 +1,75 @@
+* {
+  font-family: family;
+  src: url(fonts/cooper.ttf)
+}
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+body {
+  background-image: url("images/background1.png");
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: end center;
+}
+
+.logo {
+  height: auto;
+}
+
+#home {
+  display: flex;
+  justify-content: center;
+  background-color: #024637;
+  padding: 20px;
+  border-radius: 12px;
+  width:max-content;
+  margin-right: 80px;
+  margin-left: 120px;
+  
+}
+
+#welcome {
+  color:#ffff;
+  background-color: #024637;
+  text-align: center;
+  font-size: 40px;
+  border-radius: 12px;
+  margin: 30px;
+}
+
+#about {
+  color:#ffff;
+  background-color: #024637;
+  text-align: center;
+  font-size: 30px;
+  border-radius: 12px;
+  margin: 20px;
+}
+
+#button-home {
+  color:#ffff;
+  font-size:x-large;
+  background-color:#05a67c;
+  height: 55px;
+  width: 250px;
+  border-radius: 20px;
+  border-color:#ffff;
+  font-weight: bold;
+}
+
+#button-breakingbad {
+  color:#ffff;
+  font-size:x-large;
+  background-color:#05a67c;
+  height: 55px;
+  width: 250px;
+  border-radius: 20px;
+  border-color:#ffff;
+  margin-left: 30px;
+  font-weight: bold;
+}
+
