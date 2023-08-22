@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Breaking Bad Lovers</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <main>
+    <header class="header">
+      <img src="images/logo.png" alt="image" height="250" width="400" />
+
+      <div class="container" id="home">
+
+        <a href="home.html">HOME</a>
+        <a href="breakingbad.html">BREAKING BAD</a>
+
+      </div>
+      <div class="search-container">
+        <input type="text" class="search-input" placeholder="Pesquisar...">
+      </div>
+    </header>
+
+
+    <section class="filters">
+      <div class="breaking-options">
+        <select class="selector-az" id="a-z">
+          <option disabled selected hidden>ORDENAR</option>
+          <option class="selected" value="A-Z">A-Z</option>
+          <option class="selected" value="Z-A">Z-A</option>
+        </select>
+      </div>
+
+      <div class="breaking-status">
+        <select class="selector-status" id="status">
+          <option disabled selected hidden>STATUS</option>
+          <option class="selected" value="vivo">Vivo</option>
+          <option class="selected" value="morto">Morto</option>
+          <option class="selected" value="morte presumida">Morte presumida</option>
+        </select>
+      </div>
+
+      <div class="breaking-serie">
+        <select class="selector-serie" id="serie">
+          <option disabled selected hidden>SERIE</option>
+          <option class="selected" value="breaking bad">Breaking Bad</option>
+          <option class="selected" value="better call saul">Better Call Saul</option>
+        </select>
+      </div>
+    </section>
+
+    <h3 class="statistic-data">Esta categoria corresponde a 100% personagens</h3>
+
+    <div class="cards-breakingbad"><!--Cards criados em JS--></div>
+
+
+  </main>
+
+  <div id="root"></div>
+  <script src="main.js" type="module"></script>
+</body>
+
+</html>
