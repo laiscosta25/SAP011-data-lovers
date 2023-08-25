@@ -1,6 +1,9 @@
 * {
+  margin: 0;
+  padding: 0;
   font-family: family;
   src: url(fonts/cooper.ttf)
+  
 }
 
 .header {
@@ -20,16 +23,86 @@ body {
   height: auto;
 }
 
+.percentage {
+  color: #ffff;
+}
+
+a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  width: max-content;
+  color:#ffff;
+  border: 3px solid white;
+  font-size:x-large;
+  background-color:#05a67c;
+  height: 55px;
+  width: 250px;
+  border-radius: 20px;
+  font-weight: bold;
+  text-align: center;
+  padding: auto;
+}
+
+.filters {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #024637;
+  border-radius: 12px;
+  padding: 20px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+  width: max-content;
+}
+
+#a-z {
+  display: flex;
+  padding: 7px 21px;
+  background-color: #05A67C;
+  border: 3px solid white;
+  border-radius: 5px;
+  font-size: larger;
+  color: white;
+}
+
+#status {
+  display: flex;
+  padding: 7px 1px;
+  background-color: #05A67C;
+  border: 3px solid white;
+  border-radius: 5px;
+  font-size: larger;
+  color: white;
+}
+
+#serie {
+  display: flex;
+  padding: 7px 6px;
+  background-color: #05A67C;
+  border: 3px solid white;
+  border-radius: 5px;
+  font-size: larger;
+  color: white;
+}
+
+.search-input {
+  background-color: #0FA57D;
+  border: none;
+  border-radius: 5px;
+}
+
 #home {
   display: flex;
   justify-content: center;
   background-color: #024637;
   padding: 20px;
+  gap: 25px;
   border-radius: 12px;
   width:max-content;
   margin-right: 80px;
   margin-left: 120px;
-  
 }
 
 #welcome {
@@ -50,18 +123,8 @@ body {
   margin: 20px;
 }
 
-#button-home {
-  color:#ffff;
-  font-size:x-large;
-  background-color:#05a67c;
-  height: 55px;
-  width: 250px;
-  border-radius: 20px;
-  border-color:#ffff;
-  font-weight: bold;
-}
 
-#button-breakingbad {
+/* #button-breakingbad {
   color:#ffff;
   font-size:x-large;
   background-color:#05a67c;
@@ -71,5 +134,4 @@ body {
   border-color:#ffff;
   margin-left: 30px;
   font-weight: bold;
-}
-
+} */
