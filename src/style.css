@@ -6,6 +6,35 @@
   
 }
 
+.poster-img {
+  height: 45vh;
+  width: 15vw;
+  margin-bottom: 2vh;
+  border-radius: 20px;
+  border: var(--black) 2px solid;
+  object-fit: cover;
+}
+
+.cards-container {
+  display: flex;
+  flex-basis: auto;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  background-color:#05A67C;
+  border-radius: 12px;
+  margin: 1rem;
+  padding: 1rem;
+  height: 35vw;
+  font-size: 19px;
+  width: 16vw;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
+
 .header {
   display: flex;
   align-items: center;
@@ -13,10 +42,11 @@
 
 body {
   background-image: url("images/background1.png");
+  background-attachment: fixed;
   justify-content: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: end center;
+  background-position: center center;
 }
 
 .logo {
@@ -47,14 +77,10 @@ a {
 
 .filters {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background-color: #024637;
+  justify-content: space-around;
   border-radius: 12px;
   padding: 20px;
-  margin-left: 10px;
   margin-bottom: 5px;
-  width: max-content;
 }
 
 #a-z {
