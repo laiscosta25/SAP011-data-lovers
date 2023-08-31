@@ -1,37 +1,61 @@
-# Breaking Bad
+<h1 align="center">Breaking Bad Lovers</h1>
 
-Breaking Bad é uma série de televisão americana criada e
-produzida por Vince Gilligan. Ambientado e produzido em
-Albuquerque, Novo México, segue a história de Walter White,
-um professor de química que é diagnosticado com câncer de
-pulmão inoperável. Walter se volta para uma vida de crime
-produzindo e distribuindo metanfetamina ao lado de um
-ex-aluno, Jesse Pinkman, a fim de arrecadar dinheiro
-suficiente para o futuro de sua família após sua morte
-inevitável.
+--------------imagem de capa----------------
 
-## Constatações
+![Badge em desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge) (ver depois)
 
-Fazendo uma investigação (pesquisa) sobre as
-informações que nossas usuárias podem precisar,
-descobrimos que os dados de maior interesse são:
+# Índice
 
-- Informações sobre os personagens como nome, apelido,
-ocupação e nome da atriz ou ator que o interpreta.
+* [Título e Imagem de capa](#Título-e-Imagem-de-capa)
+* [Badges](#badges)
+* [Descrição do Projeto](#descrição-do-projeto)
+* [História do Usuário](#história-do-usuário)
+* [Protótipo de baixa fidelidade](#protótipo-de-baixa-fidelidade)
+* [Protótipo de alta fidelidade](#protótipo-de-alta-fidelidade)
+* [Status do Projeto](#status-do-projeto)
+* [Funcionalidades e demonstração da aplicação](#funcionalidades-e-demonstração-da-aplicação)
+* [Testes Unitários](#testes-unitários)
+* [Acesso ao Projeto](#acesso-ao-projeto)
+* [Tecnologias Utilizadas](#tecnologias-utilizadas)
+* [Desenvolvedoras do Projeto](#desenvolvedoras-do-projeto)
 
-- Além dessas informações, Breaking Bad coexiste
-com Better Call Saul; para nossos usuários é
-importante poder ver a lista de personagens que
-aparecem em cada uma das séries.
+# Descrição do Projeto
+Este é o segundo projeto desenvolvido no bootcamp da Laboratoria, onde a proposta é desenvolver uma página web destinada a fãs da série Breaking Bad. 
 
-## Detalhes dos data
+O site permite ao usuário visualizar dados, filtrá-los, ordená-los e fazer algum cálculo agregado, de acordo com as informações de cada personagem.
 
-Com este conjunto de dados você pode obter os seguintes dados de um caractere:
+# História do Usuário
+De acordo com uma pesquisa sobre as informações que nossas usuárias podem precisar, descobrimos que os dados de maior interesse são:
 
-- nome
-- imagem
-- ocupação
-- estado de vida
-- sobrenome
-- categoria
-- estação em que aparece
+    Informações sobre os personagens como nome, apelido, ocupação e nome da atriz ou ator que o interpreta.
+
+    Além disso, é importante para os fãs terem acesso a lista de personagens que aparecem em Breaking Bad e Better Call Saul.
+
+# Protótipo de baixa fidelidade
+
+
+# Protótipo de alta fidelidade
+
+
+# Status do projeto
+Projeto em Construção
+
+# Funcionalidades e demonstração da aplicação
+- Exibe cards com a foto de cada personagem da série e suas principais informações.
+
+- Permite que o usuário ordene os cards de A-Z ou Z-A.
+
+- Disponibiliza dois filtros de busca:    
+O primeiro informa se o personagem está vivo, morto ou teve a morte presumida. Já o segundo, mostra quais personagens estão presentes na série Better Call Saul.
+
+-------------gif demonstrando a aplicação--------------
+
+# Acesso ao projeto
+
+# Tecnologias Utilizadas
+
+
+# Desenvolvedoras do projeto
+
+-----linkedin e github de cada uma---------
+

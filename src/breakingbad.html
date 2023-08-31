@@ -10,19 +10,52 @@
 <body>
   <main>
     <header class="header">
-      <img src="images/logo.png" alt="image" height="250" width="400" />
 
       <div class="container" id="home">
-
         <a href="home.html">HOME</a>
         <a href="breakingbad.html">BREAKING BAD</a>
+       </div>
 
-      </div>
-
-      <div class="search-container">
-        <input type="text" class="search-input" id="search" placeholder="Pesquisar...">
-      </div>
     </header>
+
+    <div class="logo" id="logo">
+      <img src="images/logo.png" alt="image" height="250" width="400" />
+    </div>
+
+      <div class="filters-container">
+
+        <div class="breaking-options">
+          <select class="select" id="a-z">
+            <option value="" selected disabled hidden>ORDER</option>
+            <option value="A-Z">A-Z</option>
+            <option value="Z-A">Z-A</option>
+          </select>
+        </div>
+
+        <div class="breaking-status">
+          <select class="select" id="status">
+            <option value="" selected disabled hidden>STATUS</option>
+            <option value="Alive">Vivo</option>
+            <option value="Deceased">Morto</option>
+            <option value="Presumed dead">Morte presumida</option>
+          </select>
+        </div>
+
+        <div class="breaking-serie">
+          <select class="select" id="serie">
+            <option value="" selected disabled hidden>SERIES</option>
+            <option value="Breaking Bad">Breaking Bad</option>
+            <option value="Better Call Saul">Better Call Saul</option>
+          </select>
+        </div>
+
+        <div class="search-container">
+          <input type="text" class="search-input" id="search" placeholder="Search">
+        </div>
+
+
+      </div>
+
 
     <div class="percentage-container" id="percentage-container">
       <br />
@@ -30,41 +63,12 @@
       <br />
     </div>
 
-    <section class="filters">
-      <div class="breaking-options">
-        <select class="select" id="a-z">
-          <option value=""  selected disabled hidden>ORDENAR</option>
-          <option value="A-Z">A-Z</option>
-          <option value="Z-A">Z-A</option>
-        </select>
-      </div>
-
-      <div class="breaking-status">
-        <select class="select" id="status">
-          <option value="" selected disabled hidden>STATUS</option>
-          <option value="Alive">Vivo</option>
-          <option value="Deceased">Morto</option>
-          <option value="Presumed dead">Morte presumida</option>
-        </select>
-      </div>
-
-      <div class="breaking-serie">
-        <select class="select" id="serie">
-          <option value="" selected disabled hidden>SERIE</option>
-          <option value="Breaking Bad">Breaking Bad</option>
-          <option value="Better Call Saul">Better Call Saul</option>
-        </select>
-      </div>
-    </section>
-
-    
-
     <div class="cards-container" id="cards-container"></div>
 
 
   </main>
 
-  
+
   <script src="main.js" type="module"></script>
 </body>
 

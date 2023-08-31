@@ -15,17 +15,15 @@ function displayCards(characters) {
     const template = `
       <div class="card">
 
-      <img class="poster-img" src="${item.img}" alt="${item.name}">
-        <ul class="card-text" style="list-style: none">
-          <li>Name: ${item.name}</li>
-          <li>Birthday: ${item.birthday}</li>
-          <li>Nickname: ${item.nickname}</li>
-          <li>Occupation: ${item.occupation}</li>
-          <li>Status: ${item.status}</li>
-          <li>Appearance: ${item.appearance}</li>
-          <li>Portrayed: ${item.portrayed}</li>
-          <li>Category: ${item.category}</li>   
-        </ul>
+        <img class="poster-img" src="${item.img}" alt="${item.name}">
+          <h3 class="name">${item.name}</h3>
+          <p class="nickname">Nickname: ${item.nickname}</p>
+          <p class="occupation">Occupation: ${item.occupation}</p>
+          <p class="status">Status: ${item.status}</p>
+          <p class="appearance">Appearance: ${item.appearance}</p>
+          <p class="portrayed">Portrayed: ${item.portrayed}</p>
+          <p class="category">Category: ${item.category}</p>   
+  
       </div>
 `;
 
