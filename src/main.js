@@ -16,9 +16,9 @@ function displayCards(characters) {
       <div class="card">
 
         <img class="poster-img" src="${item.img}" alt="${item.name}">
-          <h3 class="name">${item.name}</h3>
-          <p class="nickname">Nickname: ${item.nickname}</p>
-          <p class="occupation">Occupation: ${item.occupation}</p>
+          <h3 class="name">${item.name}</h3> 
+          <p class="nickname"> ${item.nickname}</p>
+          <br><p class="occupation">Occupation: ${item.occupation}</p>
           <p class="status">Status: ${item.status}</p>
           <p class="appearance">Appearance: ${item.appearance}</p>
           <p class="portrayed">Portrayed: ${item.portrayed}</p>
