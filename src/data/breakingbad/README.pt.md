@@ -54,8 +54,10 @@ O primeiro informa se o personagem está vivo, morto ou teve a morte presumida. 
 
 # Tecnologias Utilizadas
 
-
 # Desenvolvedoras do projeto
 
------linkedin e github de cada uma---------
+https://www.linkedin.com/in/alinejvieira/
+https://www.linkedin.com/in/ariadne-santos-45143b288
+https://www.linkedin.com/in/alinejvieira/
+
 

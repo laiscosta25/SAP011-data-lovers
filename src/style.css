@@ -7,12 +7,14 @@
 html {
   scroll-behavior: smooth;
 }
-
+.select option:hover,.select option:checked {
+  background-color: pink;
+  box-shadow: 0 0 10px 100px #dc3b99 inset;
+}
 .header {
   display: flex;
   align-items: center;
 }
-
 body {
   background-image: url("images/background1.png");
   background-attachment: fixed;
@@ -21,7 +23,6 @@ body {
   background-size: cover;
   background-position: center center;
 }
-
 a {
   display: flex;
   justify-content: center;
@@ -39,11 +40,10 @@ a {
   text-align: center;
   padding: auto;
 }
-
 .logo {
   text-align: center;
+  margin: 2rem;
 }
-
 #home {
   display: flex;
   justify-content: center;
@@ -59,16 +59,18 @@ a {
   color:#ffff;
   background-color: #024637;
   text-align: center;
-  font-size: 40px;
+  font-size: 35px;
   border-radius: 12px;
-  margin: 30px;
+  padding: 1rem;
+  margin: 100px;
+  margin-bottom: 50px;
 }
-
 #about {
   color:#ffff;
   background-color: #024637;
   text-align: center;
   font-size: 30px;
+  padding: 1rem;
   border-radius: 12px;
   margin: 20px;
 }
@@ -180,6 +182,7 @@ h3 {
 }
 
 .nickname {
+  margin-bottom: 5px;
   font-style: oblique;
   letter-spacing: 2px;
 }

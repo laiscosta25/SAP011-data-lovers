@@ -1,11 +1,11 @@
 
-import data from "./data/breakingbad/breakingbad.js"; 
+import data from "./data/breakingbad/breakingbad.js";
 import dataFunctions from "./data.js";
 
 const characters = data.breaking_bad;
 const cardContainer = document.querySelector("#cards-container");
 const selectStatus = document.querySelector("#status");
-const selectSerie= document.querySelector("#serie");
+const selectSerie = document.querySelector("#serie");
 const search = document.querySelector("#search"); //cria busca por nome.
 const percentageElement = document.querySelector("#percentage");
 const selectAz = document.querySelector("#a-z");
@@ -18,7 +18,7 @@ function displayCards(characters) {
         <img class="poster-img" src="${item.img}" alt="${item.name}">
           <h3 class="name">${item.name}</h3> 
           <p class="nickname"> ${item.nickname}</p>
-          <br><p class="occupation">Occupation: ${item.occupation}</p>
+          <p class="occupation">Occupation: ${item.occupation}</p>
           <p class="status">Status: ${item.status}</p>
           <p class="appearance">Appearance: ${item.appearance}</p>
           <p class="portrayed">Portrayed: ${item.portrayed}</p>
@@ -27,10 +27,10 @@ function displayCards(characters) {
       </div>
 `;
 
-return template;
-});
+    return template;
+  });
 
-return cardsResult.join("");
+  return cardsResult.join("");
 }
 
 cardContainer.innerHTML = displayCards(characters);
@@ -53,9 +53,9 @@ selectStatus.addEventListener("change", (event) => {
     filteredList.length
   );
 
-  percentageElement.innerHTML = 
+  percentageElement.innerHTML =
     "Essa categoria corresponde a " + percentage + "% dos personagens."
-    
+
 });
 
 selectSerie.addEventListener("change", (event) => {
@@ -69,7 +69,7 @@ selectSerie.addEventListener("change", (event) => {
     filteredList.length
   );
 
-  percentageElement.innerHTML = 
+  percentageElement.innerHTML =
     "Essa categoria corresponde a " + percentage + "% dos personagens."
 });
 

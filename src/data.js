@@ -29,7 +29,7 @@ const dataFunctions = {
         return 1;
       }
     });
-    
+
     return order;
   },
 
@@ -37,18 +37,18 @@ const dataFunctions = {
     const copy = [...characters];
     if (selectAz === "A-Z") {
       return dataFunctions.ascending(copy);
-    } 
+    }
     return dataFunctions.descending(copy);
   },
 
-  
+
 
   searchName: function (characters, name) {
     const filter = characters.filter(function (character) {
       const filteredSearch = character.name
-      .toLowerCase()
-      .includes(name.toLowerCase());
-    return filteredSearch;
+        .toLowerCase()
+        .includes(name.toLowerCase());
+      return filteredSearch;
     });
     return filter;
   },

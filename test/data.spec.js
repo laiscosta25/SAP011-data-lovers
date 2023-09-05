@@ -1,4 +1,4 @@
-import {dataFunctions} from '../src/data.js';
+import dataFunctions  from '../src/data.js';
 const arrayTest = [
   {
     char_id: 1,
@@ -13,7 +13,7 @@ const arrayTest = [
     category: "Breaking Bad",
   },
   {
-    char_id: 5,
+    char_id: 3,
     name: "Henry Schrader",
     status: "Deceased",
     category: "Breaking Bad",
@@ -25,14 +25,85 @@ const arrayTest = [
     category: "Breaking Bad, Better Call Saul",
   },
 ];
-  describe('dataFunctions', () => {
-  it('is a object', () => {
-  expect(typeof dataFunctions).toBe('object');
+describe("dataFunctions", () => {
+  it("is a object", () => {
+    expect(typeof dataFunctions).toBe("object");
   });
 });
 
-describe('filter', () => {
-  it('is a function', () => {
-    expect(typeof dataFunctions.filter).toBe('function');
+describe("filter", () => {
+  it("is a function", () => {
+    expect(typeof dataFunctions.filter).toBe("function");
+  });
+});
+
+it("filter status", () => {
+  const selectStatus = dataFunctions.filter(arrayTest, "Alive", "status");
+  expect(selectStatus.length).toEqual(2);
+  expect(selectStatus).toEqual([arrayTest[1], arrayTest[3]]);
+});
+
+it("filter series", () => {
+  const selectCategory = dataFunctions.filter(
+    arrayTest,
+    "Breaking Bad",
+    "category"
+  );
+
+  expect(selectCategory.length).toEqual(4);
+  expect(selectCategory).toEqual([
+    arrayTest[0],
+    arrayTest[1],
+    arrayTest[2],
+    arrayTest[3],
+  ]);
+});
+describe("order", () => {
+  it("is a funcion", () => {
+    expect(typeof dataFunctions.order).toBe("function");
+  });
+
+  it("order ascending", () => {
+    const character = dataFunctions.order(arrayTest,"A-Z");
+    expect(character.length).toEqual(4);
+    expect(character).toEqual([
+      arrayTest[2],
+      arrayTest[1],
+      arrayTest[3],
+      arrayTest[0],
+    ]);
+  });
+
+  it("order descending", () => {
+    const character = dataFunctions.order(arrayTest, "descending");
+    expect(character.length).toEqual(4);
+    expect(character).toEqual([
+      arrayTest[0],
+      arrayTest[3],
+      arrayTest[1],
+      arrayTest[2],
+    ]);
+  });
+});
+
+describe("searchName", () => {
+  it("search for name", () => {
+    expect(typeof dataFunctions.searchName).toBe("function");
+  });
+
+  it("search for a name", () => {
+    const characterSearch = dataFunctions.searchName(arrayTest, "Walter");
+    expect(characterSearch.length).toEqual(1);
+  });
+});
+
+describe("calculatePercentage", () => {
+  it("is a function", () => {
+    expect(typeof dataFunctions.calculatePercentage).toBe("function");
+  });
+
+  it("calculate percentage", () => {
+    const percentage = dataFunctions.calculatePercentage(arrayTest.length, 3);
+    expect(percentage).toEqual(75);
   });
 });
