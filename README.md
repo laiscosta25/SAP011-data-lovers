@@ -34,11 +34,9 @@ O primeiro informa se o personagem está vivo, morto ou teve a morte presumida. 
 # Acesso ao projeto
 https://ariadnesantos.github.io/SAP011-data-lovers/breakingbad.html
 # Tecnologias Utilizadas
-- HTML
-- JavaScript
-- CSS
-- Jest
-- Marvel App
+
+![tecnologias utilizadas data lovers](https://github.com/ariadnesantos/SAP011-data-lovers/assets/139479197/36a3f3ab-7006-41a7-87af-fcde1db66bde)
+
 # Desenvolvedoras do projeto
 - Aline Vieira: https://www.linkedin.com/in/alinejvieira/
 - Ariadne Santos: https://www.linkedin.com/in/ariadne-santos-45143b288/
