@@ -32,6 +32,7 @@ De acordo com uma pesquisa sobre as informações que nossas usuárias podem pre
 - Disponibiliza dois filtros de busca:
 O primeiro informa se o personagem está vivo, morto ou teve a morte presumida. Já o segundo, mostra quais personagens estão presentes na série Better Call Saul.
 # Acesso ao projeto
+https://ariadnesantos.github.io/SAP011-data-lovers/breakingbad.html
 # Tecnologias Utilizadas
 - HTML
 - JavaScript
