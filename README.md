@@ -1,15 +1,15 @@
 <h1 align="center">Breaking Bad Lovers</h1>
+
 ![capa do data lovers](https://github.com/ariadnesantos/SAP011-data-lovers/assets/139479197/96ea2925-eb94-4038-aa28-49513575696f)
+
 ![Badge em desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
+
 # Índice
-* [Título e Imagem de capa](#Título-e-Imagem-de-capa)
-* [Badges](#badges)
 * [Descrição do Projeto](#descrição-do-projeto)
 * [História do Usuário](#história-do-usuário)
 * [Protótipo de baixa fidelidade](#protótipo-de-baixa-fidelidade)
 * [Protótipo de alta fidelidade](#protótipo-de-alta-fidelidade)
-* [Funcionalidades e demonstração da aplicação](#funcionalidades-e-demonstração-da-aplicação)
-* [Testes Unitários](#testes-unitários)
+* [Funcionalidades](#funcionalidades)
 * [Acesso ao Projeto](#acesso-ao-projeto)
 * [Tecnologias Utilizadas](#tecnologias-utilizadas)
 * [Desenvolvedoras do Projeto](#desenvolvedoras-do-projeto)
@@ -19,9 +19,13 @@ Este é o segundo projeto desenvolvido no bootcamp da Laboratoria, onde a propos
 # História do Usuário
 De acordo com uma pesquisa sobre as informações que nossas usuárias podem precisar, descobrimos que os dados de maior interesse são:    Informações sobre os personagens como nome, apelido, ocupação e nome da atriz ou ator que o interpreta.    Além disso, é importante para os fãs terem acesso a lista de personagens que aparecem em Breaking Bad e Better Call Saul.
 # Protótipo de baixa fidelidade
+
 ![Design sem nome](https://github.com/ariadnesantos/SAP011-data-lovers/assets/139479197/d7a4a316-4860-4966-aeaf-874e476acfd7)
+
 # Protótipo de alta fidelidade
-![protótipo de alta geral] (https://github.com/ariadnesantos/SAP011-data-lovers/assets/139479197/74514635-1f14-4e93-9d9b-d8d289b302fd)
+
+![protótipo de alta geral](https://github.com/ariadnesantos/SAP011-data-lovers/assets/139479197/e6f1dc3d-5cb2-4076-87d3-f262e138525a)
+
 # Funcionalidades
 - Exibe cards com a foto de cada personagem da série e suas principais informações.
 - Permite que o usuário ordene os cards de A-Z ou Z-A.
@@ -35,6 +39,6 @@ O primeiro informa se o personagem está vivo, morto ou teve a morte presumida. 
 - Jest
 - Marvel App
 # Desenvolvedoras do projeto
-Aline Vieira: https://www.linkedin.com/in/alinejvieira/
-Ariadne Santos: https://www.linkedin.com/in/ariadne-santos-45143b288
-Laís Costa: https://www.linkedin.com/in/la%C3%ADs-costa-859084265/
+- Aline Vieira: https://www.linkedin.com/in/alinejvieira/
+- Ariadne Santos: https://www.linkedin.com/in/ariadne-santos-45143b288/
+- Laís Costa: https://www.linkedin.com/in/la%C3%ADs-costa-859084265/
