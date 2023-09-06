@@ -41,8 +41,6 @@ const dataFunctions = {
     return dataFunctions.descending(copy);
   },
 
-
-
   searchName: function (characters, name) {
     const filter = characters.filter(function (character) {
       const filteredSearch = character.name

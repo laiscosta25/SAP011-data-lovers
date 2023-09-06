@@ -59,7 +59,7 @@ it("filter series", () => {
   ]);
 });
 describe("order", () => {
-  it("is a funcion", () => {
+  it("is a function", () => {
     expect(typeof dataFunctions.order).toBe("function");
   });
 

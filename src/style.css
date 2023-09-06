@@ -173,7 +173,6 @@ a {
   width: 270px;
   margin-bottom: 10px;
   border-radius: 20px;
-  border: var(--black) 2px solid;
   object-fit: cover;
 }
 
