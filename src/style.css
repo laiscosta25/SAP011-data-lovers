@@ -7,10 +7,7 @@
 html {
   scroll-behavior: smooth;
 }
-.select option:hover,.select option:checked {
-  background-color: pink;
-  box-shadow: 0 0 10px 100px #dc3b99 inset;
-}
+
 .header {
   display: flex;
   align-items: center;
