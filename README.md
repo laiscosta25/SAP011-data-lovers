@@ -32,7 +32,7 @@ De acordo com uma pesquisa sobre as informações que nossas usuárias podem pre
 - Disponibiliza dois filtros de busca:
 O primeiro informa se o personagem está vivo, morto ou teve a morte presumida. Já o segundo, mostra quais personagens estão presentes na série Better Call Saul.
 # Acesso ao projeto
-https://ariadnesantos.github.io/SAP011-data-lovers/index.html
+https://laiscosta25.github.io/SAP011-data-lovers/src/
 # Tecnologias Utilizadas
 
 ![tecnologias utilizadas data lovers](https://github.com/ariadnesantos/SAP011-data-lovers/assets/139479197/36a3f3ab-7006-41a7-87af-fcde1db66bde)
